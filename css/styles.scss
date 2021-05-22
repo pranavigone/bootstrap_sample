@@ -54,6 +54,30 @@ body{
     padding: 10px;
 }
 
+.modal-content {
+	border: 0px;
+
+	.modal-body {
+		background: $background-pale;
+	}
+
+	.modal-header {
+		background: $background-dark;
+		color: floralwhite;
+		border: 0px;
+
+		.close {
+			color: floralwhite;
+		}
+
+        button{
+            color: $white;
+        }
+
+	}
+
+}
+
 .carousel {
     background:$background-dark;
 
